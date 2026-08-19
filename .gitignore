@@ -1,0 +1,47 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+*.token
+token.txt
+credentials.json
+
+# Datasets and caches
+data/
+datasets/
+imagenet/
+ILSVRC*/
+cifar-100-python/
+cifar-100-python.tar.gz
+.cache/
+huggingface/
+hf_cache/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Colab / mounted-drive paths
+content/
+drive/
+
+# Temporary files and logs
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
